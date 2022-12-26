@@ -1,0 +1,285 @@
+
+body{
+    margin: 1.5em;
+    font-family: 'poppins' sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.hero-img{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('images.jpeg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.logo{
+    color: blue;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0;
+}
+
+nav{
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: white;
+    height: 100vh;
+    width: 50%;
+    z-index: 2;
+    text-transform: uppercase;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 8em;
+}
+
+a{
+    color: black;
+    padding: .75em 2em;
+    display: block;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border: double;
+    position: static;
+}
+
+h1{
+    font-size: 5em;
+    margin-top: 2em;
+    line-height: 3.3rem;
+}
+
+.subhead{
+    font-size: 1.4rem;
+}
+
+section.hero{
+    color: black;
+    height: 90vh;
+}
+
+img{
+    width: 50%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.f-logo {
+    width: 30%;
+    height: 80%;
+    object-fit: cover;
+    margin-left: 0;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.desc{
+    line-height: 1.5rem;
+}
+
+nav{
+    position: unset;
+    display: block;
+    width: auto;
+    height: auto;
+    background: none;
+}
+
+ul{
+    display: flex;
+    margin: 0;
+    color: white;
+}
+
+span{
+    color: red;
+}
+
+/*section.hero{
+    color: black;
+    height: auto;
+    width: 40%;
+    margin-bottom: 8em;
+}*/
+
+
+img{
+    width: 20em;
+    height: 20em;
+    object-fit: cover;
+    margin-left: 50%;
+}
+
+.content{
+    text-align: left;
+    width: 25em;
+    font-weight: bold;
+    margin-left: 50%;
+}
+
+.more-info {
+    display: flex;
+
+}
+
+.btn{
+    color: lightblue;
+    width: 150px;
+    background: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-left: 0;
+    border-radius: 15px;
+}
+
+.btn:hover{
+    color: white;
+}
+
+a:hover{
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.hero{
+    font-weight: bold;
+}
+
+.myP {
+    color: blue;
+    font-size: 30px;
+}
+
+button {
+    margin-left: 70%;
+}
+
+.about {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+.page {
+    margin-left: 45%; 
+    margin-top: -15%;
+    height: 70%;
+    width: 40%;
+    object-fit: cover;
+}
+
+.why-us {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.about-us {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.light {
+    height: 80vh;
+    width: 100%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 15px;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 15px;
+  }
+
+  .fa-instagram {
+    background: #ee557e;
+    color: white;
+    border-radius: 15px;
+  }
+
+  .fa-copyright {
+    text-align: center;
+  }
+
+  .footer {
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    display: block;
+    color: white;
+    width: 100%;
+  }
+
+  footer {
+    display: block;
+  }
+
+.market {
+    text-align: center;
+    margin-top: -20%;
+} 
+
+.information {
+    margin-left: 70%;
+    margin-top: -23%;
+
+}
+
+.fotter {
+    margin-left: 3%;
+}
+
+.f-link {
+    color: white;
+    text-align: center;
+}
+
+.f-link2 {
+    color: white;
+}
+
+.market, h4 {
+    font-size: 40px;
+    
+}
+
+.fa-copyright {
+    margin-left: 42%;
+}

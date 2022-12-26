@@ -126,14 +126,14 @@ img{
     width: 20em;
     height: 20em;
     object-fit: cover;
-    margin-left: 45%;
+    margin-left: 40%;
 }
 
 .content{
     text-align: left;
     width: 25em;
     font-weight: bold;
-    margin-left: 45%;
+    margin-left: 40%;
 }
 
 .more-info {
